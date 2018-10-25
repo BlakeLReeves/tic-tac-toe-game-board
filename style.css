@@ -1,0 +1,26 @@
+#board {
+    padding: 3em;
+    text-align: center;
+}
+
+square.row {
+    float: left;
+    height: 100px;
+    width:  100px;
+}
+
+.row {
+    width: 302px;
+    clear: both;
+    margin: 0 auto;
+}
+
+.vert {
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+}
+
+.hori {
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+}
